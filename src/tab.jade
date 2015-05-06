@@ -1,0 +1,11 @@
+doctype
+html(data-ng-app='myApp', ng-cloak='', data-ng-csp='')
+  head
+    meta(charset='UTF-8')
+    title BitChrome
+    link(rel='stylesheet', href='./css/vendor.css')
+    link(rel='stylesheet', href='./css/main.css')
+  body(ng-controller='AppCtrl as App')
+    .container
+      h1 {{ App.title }}
+    script(src='./js/app.js')
